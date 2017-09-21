@@ -11,7 +11,6 @@ from anastasia.eat import new_eat, eat_callback
 
 
 def main():
-    locale.setlocale(locale.LC_TIME, 'fr_FR.UTF-8')
 
     conf = confighelper.ConfigHelper(sys.argv[1])
     updater = Updater(token=conf.get_anastasia_key())
