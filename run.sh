@@ -1,1 +1,1 @@
-./run.py conf.config
+python run.py conf.config
