@@ -1,0 +1,1 @@
+./run.py conf.config
